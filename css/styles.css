@@ -2,7 +2,6 @@ img {
   float: left;
   height: 700px;
   width: auto;
-  background-image: url("images/background.jpeg");
 }
 
 .hello {
@@ -10,10 +9,17 @@ img {
   font-family: 'Great Vibes', cursive;
   text-align: center;
   background-color: #eee;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h2 {
   padding-top: 20px;
   text-align: center;
   color: blue;
+}
+
+.portfolio {
+  padding-top: 10px;
+
 }
