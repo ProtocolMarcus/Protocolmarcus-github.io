@@ -2,9 +2,18 @@ img {
   float: left;
   height: 700px;
   width: auto;
+  background-image: url("images/background.jpeg");
 }
 
 .hello {
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Great Vibes', cursive;
+  text-align: center;
+  background-color: #eee;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+  color: blue;
 }
