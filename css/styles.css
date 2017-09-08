@@ -28,3 +28,11 @@ h2 {
   color: green;
   font-family: 'Josefin Slab', serif;
 }
+
+.address {
+  float:right;
+}
+
+.sidebar {
+  float: right;
+}
