@@ -37,9 +37,11 @@ h2 {
   float: right;
 }
 
-.jumbotron {
+#landing {
   background-image: url("../images/banner.jpeg");
   height: 700px;
+  background-size: 100%;
+  padding-top: 300px;
 }
 @media screen and (min-width: 480px) {
     body {
