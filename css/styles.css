@@ -13,14 +13,15 @@ img {
   padding-right: 50px;
 }
 
+.welcome {
+  font-size: 20px;
+  font-family: 'Josefin Slab', serif;
+}
+
 h2 {
   padding-top: 20px;
   text-align: center;
   color: blue;
-}
-
-.portfolio {
-  padding-top: 10px;
 }
 
 .about {
@@ -35,14 +36,26 @@ h2 {
 
 .sidebar {
   float: right;
+  padding-right: 10px;
 }
 
 #landing {
   background-image: url("../images/banner.jpeg");
-  height: 700px;
+  height: 720px;
   background-size: 100%;
   padding-top: 300px;
 }
+
+p {
+  font-family: 'Parisienne', cursive;
+  font-size: 15px;
+}
+
+h3 {
+  text-align: center;
+  color: darkgrey;
+}
+
 @media screen and (min-width: 480px) {
     body {
         background-color: white;
