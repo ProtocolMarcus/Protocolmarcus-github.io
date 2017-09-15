@@ -58,18 +58,19 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <form>
+          <div class="dv-notify-success">Success</div>
+          <form class="dv-add-oneto:contactus:fromwebsite">
             <div class="form-group">
               <label for="exampleInputName1">Full Name</label>
-              <input type="name" class="form-control" id="exampleInputname1" placeholder="Name">
+              <input name="fullname" type="name" class="form-control" id="exampleInputname1" placeholder="Name">
             </div>
            <div class="form-group">
             <label for="exampleInputEmail">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
           <div class="form-group">
             <label for="exampleInputTextarea">Message</label>
-            <textarea class="form-control" rows="3"></textarea>
+            <textarea class="message" class="form-control" rows="3"></textarea>
           </div>
           <div class="checkbox">
             <label>
@@ -99,5 +100,6 @@
   </footer>
 </div>
 </div>
+<script src="http://protocolmarcus.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="b8e2d2bfcad2c4e06c4a7a2aaaa4404b"  defer ></script>
 </body>
 </html>
